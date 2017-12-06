@@ -1,4 +1,4 @@
-package fiap.persistencia.roteiro6;
+package fiap.persistencia.roteiro6.entity;
 
 import java.util.HashSet;
 import java.util.Set;

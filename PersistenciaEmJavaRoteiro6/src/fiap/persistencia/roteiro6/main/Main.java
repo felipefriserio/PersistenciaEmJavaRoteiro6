@@ -6,8 +6,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import fiap.persistencia.roteiro6.Funcionario;
-import fiap.persistencia.roteiro6.Tarefa;
+import fiap.persistencia.roteiro6.entity.Funcionario;
+import fiap.persistencia.roteiro6.entity.Tarefa;
 import fiap.persistencia.roteiro6.helper.Helper;
 
 public class Main {

@@ -1,4 +1,4 @@
-package fiap.persistencia.roteiro6;
+package fiap.persistencia.roteiro6.entity;
 
 import java.io.Serializable;
 import java.util.HashSet;
@@ -19,7 +19,7 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
 @Entity
-@Table(name = "FUNCIONARIO", catalog = "DBTarefa",// nome do banco 
+@Table(name = "FUNCIONARIO", //catalog = "DBTarefa", nome do banco 
 		uniqueConstraints = {
 		@UniqueConstraint(columnNames = "CODIGO_FUNCIONARIO") })
 @NamedQuery(name = "Funcionario.findAll", query = "select f from Funcionario f") // guarda o resultado no cache

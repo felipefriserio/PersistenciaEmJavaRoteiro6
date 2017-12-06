@@ -5,7 +5,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
-import fiap.persistencia.roteiro6.Funcionario;
+import fiap.persistencia.roteiro6.entity.Funcionario;
 
 public class Helper {
 
